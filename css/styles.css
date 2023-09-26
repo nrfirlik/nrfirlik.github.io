@@ -1,0 +1,33 @@
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	font-size: 1.75em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+nav li a{
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+header{
+	text-align: center;
+}
+nav{
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	padding: 1% 2%;
+	
+}
+#personalimg img{
+		max-width:25%;
+		display: block;
+		margin-left: auto;
+		padding: 1%;
+}
