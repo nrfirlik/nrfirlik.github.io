@@ -1,3 +1,8 @@
+nav, main, footer{
+	margin: 0%;
+	padding: 0%;
+}
+
 nav ul{
 	list-style-type: none;
 	margin: 0;
@@ -30,4 +35,27 @@ nav{
 		display: block;
 		margin-left: auto;
 		padding: 1%;
+}
+#contacts{
+	text-align: center;
+}
+#emailpic img{
+	max-width: 100%;
+	padding: 1%;
+}
+#phonepic img{
+	max-width: 100%;
+	padding: 1%;
+}
+#emailpic, #contacts, #phonepic{
+	width: 29%;
+	float: left;
+	margin: 0 2%;
+}
+footer{
+	clear: float;
+	border-top: 2px solid #f2f2f2;
+}
+main{
+	overflow: auto;
 }
