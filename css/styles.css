@@ -33,8 +33,9 @@ nav{
 #personalimg img{
 		max-width:25%;
 		display: block;
-		margin-left: auto;
+		float: left;
 		padding: 1%;
+		margin: 0 15%
 }
 #contacts{
 	text-align: center;
@@ -58,4 +59,9 @@ footer{
 }
 main{
 	overflow: auto;
+}
+#shoebill img{
+	width: 25%;
+	float: left;
+	margin: 0 3%;
 }
