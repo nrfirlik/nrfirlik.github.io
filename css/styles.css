@@ -35,8 +35,6 @@ header{
 nav{
 	border-top: 2px solid #e5e6e6;
 	border-bottom: 2px solid #e5e6e6;
-	/* padding: 1% 2%; */
-	/* background-color: #e6e6e6; */
 	margin-bottom: 10px;
 	
 }
@@ -65,13 +63,11 @@ nav{
 footer{
 	clear: float;
 	border-top: 3px solid #323434;
-	/* background-color: #8b8d8d; */
 	margin-top: 10px;
 }
 main{
 	overflow: auto;
 	flex: 1;
-	/* background-color: #3f4040; */
 }
 main h2, li{
 	color: #e5e6e6;
