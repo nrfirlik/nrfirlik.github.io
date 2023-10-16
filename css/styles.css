@@ -6,6 +6,9 @@ body{
 	background-image: url("../images/background.jpg");
 	min-height: 100vh;
 }
+body a, h1{
+	color: #e5e6e6;
+}
 
 nav ul{
 	list-style-type: none;
