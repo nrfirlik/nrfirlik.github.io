@@ -1,0 +1,71 @@
+/*
+	Author: Nathan Firlik
+	Date: 10/24/23
+	File Name: style.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, article, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body */
+body {
+	background: linear-gradient(to left, #fe9972, #ffe5dc);
+}
+
+/* Style rules for mobile viewport */
+
+/* Style rule for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin: 1em;
+	text-align: center;
+    color: #341509;
+}
+
+/* Style rules for the main content  */
+main {
+    padding: 1%;
+}
+
+article {
+    background-color: #a22c02;
+    color: #ffe5dc;
+    padding: 2%;
+    margin: 2% 1%;
+    border: 1px solid #000;
+}
+
+/* Style rule for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+    color: #341509;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 481px), print {
+    article {
+        width: 43%;
+		float: left;
+		height: 160px;
+    }
+	footer {
+		clear: left;
+	}
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 900px) {
+	article {
+			width: 27%;
+			height: 140px;
+	}
+	article:hover {
+		background-color: #ffe5dc;
+		color: #a22c02;
+	}
+}

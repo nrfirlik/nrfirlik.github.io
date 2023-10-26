@@ -1,0 +1,96 @@
+/*
+Author: Nathan Firlik
+Date: 10/21/23
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and header content */
+body {
+    background-color: #d9d9d9;
+}
+
+header, footer {
+    padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    overflow: auto;
+}
+
+main p {
+    font-size: 1.25em;
+    padding: 2%;
+}
+
+main a {
+    color: #0000b3;
+    text-decoration: none;
+}
+
+#orange, #purple, #green {
+    display: block;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+#questions {
+    clear: left;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+/* Orange */
+.orange-hex {
+	background-color: #FFE5B4;
+}
+
+.orange-rgb {
+	background-color: rgb(255, 229, 180);
+}
+
+.orange-hsl {
+	background-color: hsl(39, 100%, 85%);
+}
+/* Purple */
+.purple-hex {
+	background-color: #BF40BF;
+}
+
+.purple-rgb {
+	background-color: rgb(191, 64, 191);
+}
+
+.purple-hsl {
+	background-color: hsl(300, 50%, 50%);	
+}
+
+/* Green */
+.green-hex {
+	background-color: #AFE1AF;
+}
+
+.green-rgb {
+	background-color: rgb(175, 225, 175);	
+}
+
+.green-hsl {
+	background-color: hsl(120, 45%, 78%);
+}
