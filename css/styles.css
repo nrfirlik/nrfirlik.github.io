@@ -97,3 +97,24 @@ main h2, li{
 	margin: 0 3%;
 	border: 10px solid #000;
 }
+table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	color:#e5e6e6;
+	font-size: 20px;
+	border: 3px solid #bec2c2;
+	border-collapse: collapse;
+}
+th, td{
+	border: 2px solid #bec2c2;
+	border-collapse: collapse;
+	padding: 5px;
+}
+.borderless{
+	border: 0px;
+}
+.new-line{
+	margin: auto;
+}

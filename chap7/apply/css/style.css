@@ -1,0 +1,96 @@
+/*
+Author: Brian Angyal
+Date: 10/27/2023
+File Name: style.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, section, article, aside {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #c8dbE3;
+}
+
+/* Style rules for mobile viewport */
+section{
+	background-color: #183440;
+	color: #fff;
+	margin-top: 4%;
+	padding: 3%;
+}
+article{
+	margin-top: 1%;
+	padding: 2%;
+}
+aside{
+	background-color: rgba(24, 52, 64, 0.3);
+	padding: 2%;
+	margin-top: 1%;
+	color: #183440;
+	box-shadow: 4px 4px 10px #183440;
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #183440;
+	color: #fff;
+	padding: 2%;
+}
+
+/* Style rules for nav area */
+nav {
+	background-color: #183440;
+	padding: 0.5%;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	color: #fff;
+	padding: 1% 3%;
+	text-decoration: none;
+}
+
+/* Style rules for main content  */
+main {
+	padding: 1em;
+	background-color: #fff;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 650px), print {
+.grid{
+	display: grid;
+	grid-template-columns: 2;
+	grid-gap: 20px;
+}
+aside{
+	grid-column: 1 / span 2;
+}
+    
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1024px), print {
+.grid{
+	grid-template-columns: 4;
+}
+aside{
+	grid-column: 1 / span 4;
+}
+    
+}

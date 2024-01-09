@@ -1,0 +1,75 @@
+/*
+Author: Nathan Firlik
+Date: 11/28/2023
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font-family: sans-serif;
+}
+
+/* Style rule for body */
+body {
+	background-color: #ffe5dc;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+table{
+	width: 80%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: #fd4d0c;
+	border-collapse: collapse;
+	padding: 2%;
+	box-shadow: 20px 20px 20px #792101;
+	border-color: #a22c02;
+	
+}
+table{
+	border-collapse: collapse;
+	padding: 2%;
+	border: 10px solid #fd4d0c;
+	
+}
+tr:nth-child(odd){
+	background-color: #fe9772;
+		
+}
+caption{
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+	color: #792101;
+}
+th{
+	border: 1px solid white;
+	text-align: center;
+	border-collapse: collapse;
+	background-color: #792101;
+	color: white;
+	padding: 2%;
+	
+}
+td{
+	border: 1px solid #a22c02;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 2%;
+	
+}
