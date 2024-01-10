@@ -47,6 +47,9 @@ nav{
 		float: left;
 		margin: 0 15%
 }
+#personalimg iframe{
+	margin: auto;
+}
 #contacts{
 	text-align: center;
 }
@@ -116,5 +119,12 @@ th, td{
 	border: 0px;
 }
 .new-line{
-	margin: auto;
+	width: 100%;
+}
+.margin-3{
+	max-width: 33%;
+	margin: 5% 0;
+}
+.padding1{
+	padding: 1%;
 }
